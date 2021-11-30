@@ -1,0 +1,22 @@
+
+Function
+int main():
+{
+
+Variable(number)
+  int n;
+
+Input
+  cout << "Enter an integer value to determine whether it is odd or even: ";
+  cin >> n;
+
+Statement
+  if(n % 2 == 0)
+Output
+    cout << "The value " << n << " is an even number.";
+  else
+Output
+    cout << "The value " << n << " is an odd number.";
+  return 0;
+}
+Result: figure out whether the number is odd or even
